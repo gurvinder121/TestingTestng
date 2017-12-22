@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62" started-at="2017-12-20T19:41:09Z" finished-at="2017-12-20T19:41:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62" started-at="2017-12-20T19:41:09Z" finished-at="2017-12-20T19:41:09Z">
+      <class name="com.bnm.SampleTestng">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bnm.SampleTestng@1143ee9]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-20T19:41:09Z" finished-at="2017-12-20T19:41:09Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testing()[pri:1, instance:com.bnm.SampleTestng@1143ee9]" name="testing" duration-ms="16" started-at="2017-12-20T19:41:09Z" finished-at="2017-12-20T19:41:09Z">
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="Sum()[pri:3, instance:com.bnm.SampleTestng@1143ee9]" name="Sum" duration-ms="0" started-at="2017-12-20T19:41:09Z" finished-at="2017-12-20T19:41:09Z">
+        </test-method> <!-- Sum -->
+        <test-method status="PASS" signature="endtest()[pri:2, instance:com.bnm.SampleTestng@1143ee9]" name="endtest" duration-ms="0" started-at="2017-12-20T19:41:09Z" finished-at="2017-12-20T19:41:09Z">
+        </test-method> <!-- endtest -->
+        <test-method status="PASS" signature="AddSum()[pri:0, instance:com.bnm.SampleTestng@1143ee9]" name="AddSum" duration-ms="0" started-at="2017-12-20T19:41:09Z" depends-on-methods="com.bnm.SampleTestng.Sum" finished-at="2017-12-20T19:41:09Z">
+        </test-method> <!-- AddSum -->
+      </class> <!-- com.bnm.SampleTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
